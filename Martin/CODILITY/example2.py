@@ -8,7 +8,7 @@ def solution(A):
             missing += 1
         if elem > missing:
             print("Y")
-            break
+            break #rompe el ciclo
         print("elemen:",elem)
         print("missing:",missing)
         print("\n")
@@ -16,5 +16,5 @@ def solution(A):
     pass
 
 
-D = [-1,-3,1,2,1,0,10,3,4,6,5,1000]
+D = [-1,-3,2,2,7,0,10,3,4,6,5,1000]
 print("Solution:",solution(D))
